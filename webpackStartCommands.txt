@@ -1,0 +1,20 @@
+npm init -y
+npm install webpack webpack-cli --save-dev
+npm install --save-dev html-webpack-plugin
+npm install --save-dev style-loader css-loader
+
+
+
+#to run build script
+npm run build
+
+#to run with watch:
+npm run watch
+
+
+#webpack asset guide
+https://webpack.js.org/guides/asset-management/
+#troubleshooting fonts
+https://stackoverflow.com/questions/49877149/webpack-cant-load-fonts-ttf/68838464#68838464
+
+
