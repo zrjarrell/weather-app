@@ -1,0 +1,65 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#todayWeather {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#mainContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #2970ff;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 10px;
+    width: 350px;
+    height: 285px;
+    color: rgb(236, 236, 236);
+}
+
+#searchBox {
+    font-size: large;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:  space-between;
+}
+
+#searchBox>div {
+    margin: 0 10px;
+}
+
+#searchCity {
+    border-radius: 10px;
+    border: none;
+}
+
+#currentWeatherIcon {
+    width: 125px;
+    height: 125px;
+}
+
+h3 {
+    font-weight: 700;
+}
+
+#forecast {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.futureDay {
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 4px;
+}
+
+.futureDay:nth-child(2) {
+    border-right: 1px rgb(236, 236, 236) solid;
+    border-left: 1px rgb(236, 236, 236) solid;
+}
